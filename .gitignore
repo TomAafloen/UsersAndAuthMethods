@@ -1,0 +1,5 @@
+# Ignore all report output — may contain sensitive user data
+reports/*
+
+# Keep the folder itself tracked
+!reports/.gitkeep
