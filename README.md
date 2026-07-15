@@ -2,6 +2,8 @@
 
 PowerShell tooling for safely deprecating less secure MFA methods in a large Microsoft Entra ID tenant without disrupting existing users.
 
+> **Read-only:** The scripts only read data from your Entra ID tenant (user registration details and sign-in logs). Nothing is created, modified, or deleted in Entra ID. All output is written to local files only.
+
 ## How it works
 
 The strategy relies on Entra ID's **Authentication Methods Policy inclusion groups**:
